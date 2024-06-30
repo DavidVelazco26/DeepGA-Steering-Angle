@@ -67,8 +67,10 @@ SMAPE normalizes the absolute error by the average of the actual and predicted v
 ## Modifications
 This code was modified from the original project to focus on regression instead of classification. The main goal of these modifications is to reduce the number of parameters in the CNN. The original code can be found at [GustavoVargasHakim/DeepGA](https://github.com/GustavoVargasHakim/DeepGA).
 
-## Publications
-- **Publication**: [Reducing Parameters by Neuroevolution in CNN for Steering Angle Estimation](#)
-- **Original Article**: [Hybrid encodings for neuroevolution of convolutional neural networks: a case study](#)
+There is a publication about this approach:
+**Publication**: [Reducing Parameters by Neuroevolution in CNN for Steering Angle Estimation](https://doi.org/10.1007/978-3-031-62836-8_35)
+
+The original article of DeepGA is also published:
+**Publication**: [Hybrid encodings for neuroevolution of convolutional neural networks: a case study](https://dl.acm.org/doi/abs/10.1145/3449726.3463133)
 
 
