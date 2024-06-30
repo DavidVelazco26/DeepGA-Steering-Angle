@@ -52,8 +52,8 @@ $\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \ri
 
 where:
 - $\( y_i \)$ is the actual value,
--  $ (\hat{y}_i)  $ is the predicted value,
--  $ (n) $ is the number of data points.
+-  $(\hat{y}_i)$ is the predicted value,
+-  $(n)$ is the number of data points.
 
 MAPE provides an indication of how much, on average, the predictions deviate from the actual values in percentage terms.
 
