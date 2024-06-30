@@ -24,7 +24,7 @@ Defines genetic operators such as crossover and mutation for evolving the networ
 #### `Training.py`
 Contains functions for training the CNNs and evaluating their performance using metrics such as MAPE and SMAPE.
 
-#### `DeepGA-Steering Angle-Encoding.ipynb`
+#### `DeepGA-Steering Angle.ipynb`
 Integrates all components and runs the genetic algorithm to find the optimal network architecture.
 
 ## Training and Evaluation Functions
@@ -47,9 +47,9 @@ Configures the model and optimizer.
 
 ### Mean Absolute Percentage Error (MAPE)
 The MAPE metric measures the accuracy of a predictive model by calculating the percentage difference between the predicted and actual values. It is defined as:
-$$
-\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100
-$$
+
+$\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
+
 where:
 - \( y_i \) is the actual value,
 - \( \hat{y}_i \) is the predicted value,
