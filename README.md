@@ -57,13 +57,6 @@ where:
 
 MAPE provides an indication of how much, on average, the predictions deviate from the actual values in percentage terms.
 
-### Symmetric Mean Absolute Percentage Error (SMAPE)
-The SMAPE metric is a variation of MAPE that addresses the issue of asymmetry in MAPE. It is defined as:
-
-$\text{SMAPE} = \frac{1}{n} \sum_{i=1}^{n} \frac{|y_i - \hat{y}_i|}{\frac{|y_i| + |\hat{y}_i|}{2}} \times 100$
-
-SMAPE normalizes the absolute error by the average of the actual and predicted values, making it symmetric and providing a balanced perspective on the prediction accuracy.
-
 ## Modifications
 This code was modified from the original project to focus on regression instead of classification. The main goal of these modifications is to reduce the number of parameters in the CNN. The original code can be found at [GustavoVargasHakim/DeepGA](https://github.com/GustavoVargasHakim/DeepGA).
 
