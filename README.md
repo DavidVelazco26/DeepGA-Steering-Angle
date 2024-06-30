@@ -51,7 +51,7 @@ The MAPE metric measures the accuracy of a predictive model by calculating the p
 $\text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100$
 
 where:
-- $\ y_i \$ is the actual value,
+- $\y_i\$ is the actual value,
 -  $\hat{y}_i$ is the predicted value,
 -  $n$ is the number of data points.
 
