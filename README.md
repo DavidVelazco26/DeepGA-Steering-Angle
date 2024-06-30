@@ -31,8 +31,26 @@ This project focuses on optimizing the architecture of convolutional neural netw
 - Validates the model using the validacion function.
 - Calculates a fitness function based on accuracy and the number of parameters.
 
-### SMAPE and MAPE Functions
-- **SMAPE (Symmetric Mean Absolute Percentage Error)** and **MAPE (Mean Absolute Percentage Error)** are implemented to evaluate the performance of the model.
+## Performance Metrics
+
+### Mean Absolute Percentage Error (MAPE)
+The MAPE metric measures the accuracy of a predictive model by calculating the percentage difference between the predicted and actual values. It is defined as:
+
+\[ \text{MAPE} = \frac{1}{n} \sum_{i=1}^{n} \left| \frac{y_i - \hat{y}_i}{y_i} \right| \times 100 \]
+
+where:
+- \( y_i \) is the actual value,
+- \( \hat{y}_i \) is the predicted value,
+- \( n \) is the number of data points.
+
+MAPE provides an indication of how much, on average, the predictions deviate from the actual values in percentage terms.
+
+### Symmetric Mean Absolute Percentage Error (SMAPE)
+The SMAPE metric is a variation of MAPE that addresses the issue of asymmetry in MAPE. It is defined as:
+
+\[ \text{SMAPE} = \frac{1}{n} \sum_{i=1}^{n} \frac{|y_i - \hat{y}_i|}{\frac{|y_i| + |\hat{y}_i|}{2}} \times 100 \]
+
+SMAPE normalizes the absolute error by the average of the actual and predicted values, making it symmetric and providing a balanced perspective on the prediction accuracy.
 
 ## Modifications
 This code was modified from the original project to focus on regression instead of classification. The main goal of these modifications is to reduce the number of parameters in the CNN. The original code can be found at [GustavoVargasHakim/DeepGA](https://github.com/GustavoVargasHakim/DeepGA).
